@@ -24,6 +24,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
    - idrac_username: Pass in iDRAC username
    - idrac_password: Pass in iDRAC username password
    - get_job_queue: Pass in 'y' to get current job queue
+   - filter_job_queue: Pass in 'Scheduled', 'Completed' or any other job status to filter the results
    - delete_job_id: Delete one job ID, pass in the job ID
    - delete_job_queue: Clear the complete job queue, pass in value 'y'
 .EXAMPLE
